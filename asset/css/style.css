@@ -13,7 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-ul {
+li {
   list-style-type: none;
 }
 
@@ -245,6 +245,14 @@ section {
   padding-top: 30px;
 }
 
+.column-2x {
+  width: 20%;
+}
+
+.column-1x {
+  width: 10%;
+}
+
 .flag {
   height: 15px;
   width: 20px;
@@ -263,4 +271,8 @@ section {
 
 .footer i {
   color: #fff;
+}
+
+.column-1x li {
+  padding-bottom: 10px;
 }
