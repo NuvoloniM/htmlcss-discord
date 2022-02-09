@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 /* Reset */
 
 * {
@@ -7,9 +9,9 @@
 }
 
 /* general */
-/* img {
-  width: 100%;
-} */
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 ul {
   list-style-type: none;
@@ -41,14 +43,29 @@ a {
   color: #000;
 }
 
+.hero .btn-white:hover {
+  background-color: #8ea1e1;
+  color: #fff;
+}
+
 .btn-black {
   background-color: #000;
   color: #fff;
 }
 
+.btn-black:hover {
+  background-color: #fff;
+  color: #8ea1e1;
+}
+
 .btn-blu {
   background-color: #8ea1e1;
   color: #fff;
+}
+
+.btn-blu:hover {
+  background-color: #000;
+  color: #8ea1e1;
 }
 
 .white-txt {
@@ -100,7 +117,10 @@ a {
 
 .menu li a {
   padding: 20px;
-  margin: 10px;
+}
+
+.menu li:hover a {
+  text-decoration: underline;
 }
 
 .access {
@@ -109,6 +129,11 @@ a {
   top: 50%;
   right: 0;
   transform: translatey(-50%);
+}
+
+.access li:hover a {
+  color: #8ea1e1;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* main */
