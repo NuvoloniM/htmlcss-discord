@@ -1,5 +1,90 @@
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* general */
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Utilities */
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.white-btn {
+  background-color: #fff;
+}
+
+.white-txt {
+  color: #fff;
+}
+
+/* header */
+
+.nav-container {
+  position: relative;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.navbar {
+  background-color: #3161e0;
+  text-align: center;
+  /* height: 10vh; */
+}
+
+.navbar li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px;
+  margin: 10px 10px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+}
+
+.access {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
