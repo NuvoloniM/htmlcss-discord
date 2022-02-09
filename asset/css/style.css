@@ -21,10 +21,10 @@ a {
 }
 
 /* Utilities */
-.clearfix {
+.clearfix::after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 .container {
   width: 80%;
@@ -48,6 +48,10 @@ a {
 
 .white-txt {
   color: #fff;
+}
+
+.float-left {
+  float: left;
 }
 
 /* header */
@@ -126,4 +130,37 @@ a {
 
 .action .btn {
   margin-right: 20px;
+}
+
+/* Section float*/
+
+section {
+  padding: 100px 100px 50px;
+}
+
+.section-img {
+  display: inline-block;
+  width: 50%;
+}
+
+.text {
+  display: inline-block;
+  width: calc(50% - 100px);
+  margin-left: 100px;
+  padding: 20px 50px;
+}
+
+.section-title {
+  font-size: 2.5em;
+  line-height: 1.2em;
+}
+
+.section-p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 20px 0;
+}
+
+.bg-gray {
+  background-color: #f6f6f6;
 }
