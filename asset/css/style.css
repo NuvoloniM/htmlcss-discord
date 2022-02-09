@@ -7,9 +7,9 @@
 }
 
 /* general */
-img {
+/* img {
   width: 100%;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -43,6 +43,11 @@ a {
 
 .btn-black {
   background-color: #000;
+  color: #fff;
+}
+
+.btn-blu {
+  background-color: #8ea1e1;
   color: #fff;
 }
 
@@ -135,23 +140,23 @@ a {
 /* Section float*/
 
 section {
-  padding: 100px 100px 50px;
+  padding: 100px 0px;
 }
 
 .section-img {
   display: inline-block;
-  width: 50%;
+  width: 60%;
 }
 
 .text {
   display: inline-block;
-  width: calc(50% - 100px);
+  width: calc(40% - 100px);
   margin-left: 100px;
-  padding: 20px 50px;
+  padding: 30px 0;
 }
 
 .section-title {
-  font-size: 2.5em;
+  font-size: 3em;
   line-height: 1.2em;
 }
 
@@ -163,4 +168,28 @@ section {
 
 .bg-gray {
   background-color: #f6f6f6;
+}
+
+/* section Full */
+
+.full-section {
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.full-section img {
+  padding: 0 30px;
+}
+
+.full-section h3 {
+  background-image: url(./../img/stars.svg);
+  background-size: cover;
+  width: 40%;
+  margin: 0 auto 20px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.full-section .btn {
+  margin: 20px;
 }
