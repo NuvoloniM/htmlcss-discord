@@ -246,11 +246,12 @@ section {
 }
 
 .column-2x {
-  width: 20%;
+  width: 30%;
 }
 
 .column-1x {
-  width: 10%;
+  width: calc(15% - 20px);
+  margin-left: 20px;
 }
 
 .flag {
