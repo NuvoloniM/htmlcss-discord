@@ -33,11 +33,17 @@ a {
 
 .btn {
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
-.white-btn {
+.btn-white {
   background-color: #fff;
+  color: #000;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
 }
 
 .white-txt {
@@ -87,4 +93,37 @@ a {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/* main */
+
+.hero {
+  background-image: url(./../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 40vh; */
+}
+
+.hero .container {
+  text-align: center;
+  padding: 50px 200px;
+}
+
+.title {
+  font-size: 3em;
+  padding-bottom: 50px;
+}
+
+.hero-txt {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.action {
+  padding: 30px;
+}
+
+.action .btn {
+  margin-right: 20px;
 }
