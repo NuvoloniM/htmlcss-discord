@@ -33,6 +33,10 @@ a {
   margin: 0 auto;
 }
 
+.bg-blu {
+  background-color: #3161e0;
+}
+
 .btn {
   border-radius: 20px;
   padding: 10px 20px;
@@ -81,61 +85,45 @@ a {
 }
 
 /* header */
+header {
+  padding: 20px 0px;
+}
 
-.nav-container {
-  position: relative;
-  height: 100%;
-  vertical-align: middle;
+.logo {
+  width: 20%;
 }
 
 .navbar {
-  background-color: #3161e0;
-  text-align: center;
-  /* height: 10vh; */
+  width: 60%;
+  margin-top: 10px;
 }
 
 .navbar li {
   display: inline-block;
-  vertical-align: middle;
 }
 
-.navbar li a {
-  display: block;
-  /* padding: 20px;
-  margin: 10px 10px; */
-}
-
-.logo {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translatey(-50%);
-}
-
-.menu {
-  display: inline-block;
-  width: 60%;
-  height: 100%;
-}
-
-.menu li a {
-  padding: 20px;
-}
-
-.menu li:hover a {
+.navbar li:hover a {
   text-decoration: underline;
 }
 
-.access {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translatey(-50%);
+.navbar li a {
+  padding: 20px;
+  color: #fff;
 }
 
-.access li:hover a {
+.access {
+  width: 20%;
+  text-align: end;
+  padding: 10px;
+}
+
+.access a {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.access a:hover {
   color: #8ea1e1;
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -295,16 +283,15 @@ section {
 
 .foot-logo {
   float: left;
-  top: 0;
-  left: 0;
   padding: 20px 0px 50px;
+  width: 50%;
 }
 
 .foot-bot {
-  float: right;
-  top: 0;
-  right: 0;
+  float: left;
   padding: 20px 0px 50px;
+  width: 50%;
+  text-align: end;
 }
 
 /* Effetto Onda */
