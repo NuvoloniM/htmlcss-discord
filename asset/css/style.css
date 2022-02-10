@@ -29,7 +29,7 @@ a {
   display: table;
 }
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -142,12 +142,13 @@ a {
 
 /* main */
 
+/* hero */
 .hero {
   background-image: url(./../img/jumbo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* height: 40vh; */
+  height: 60vh;
 }
 
 .hero .container {
@@ -274,8 +275,17 @@ section {
   color: #fff;
 }
 
+.footer i:hover {
+  color: #8ea1e1;
+}
+
 .column-1x li {
   padding-bottom: 10px;
+}
+
+.foot-nav li:hover a.white-txt {
+  color: #8ea1e1;
+  text-decoration: underline;
 }
 
 .foot-nav {
