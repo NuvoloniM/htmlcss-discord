@@ -306,3 +306,52 @@ section {
   right: 0;
   padding: 20px 0px 50px;
 }
+
+/* Effetto Onda */
+.section-a {
+  position: relative;
+}
+
+.section-b {
+  position: relative;
+}
+
+.section-c {
+  position: relative;
+}
+
+.section-a::before {
+  position: absolute;
+  content: "";
+  top: calc(100% - 60px);
+  left: 0;
+  background-image: url(./../img/wave.svg);
+  width: 100%;
+  height: 60px;
+  filter: invert(100%) sepia(2%) saturate(325%) hue-rotate(251deg)
+    brightness(116%) contrast(93%);
+}
+
+.section-b::before {
+  position: absolute;
+  content: "";
+  top: calc(100% - 80px);
+  left: 0;
+  background-image: url(./../img/wave.svg);
+  width: 100%;
+  height: 80px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+
+.section-c::before {
+  position: absolute;
+  content: "";
+  top: calc(100% - 60px);
+  left: 0;
+  background-image: url(./../img/wave.svg);
+  width: 100%;
+  height: 60px;
+  filter: invert(100%) sepia(2%) saturate(325%) hue-rotate(251deg)
+    brightness(116%) contrast(93%);
+}
